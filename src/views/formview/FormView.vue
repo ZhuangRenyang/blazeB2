@@ -10,7 +10,7 @@
   <div class="form-w">
     <h2 class="setting-hd-h2">密钥配置</h2>
     <el-form ref="formRef" :model="form" :rules="rules">
-      <el-form-item label="application_key_id" prop="application_key_id">
+      <el-form-item label="application_key_id图床自定义域名" prop="application_key_id">
         <el-input v-model="form.application_key_id" placeholder="请填写应用程序密钥id"></el-input>
       </el-form-item>
       <el-form-item label="application_key" prop="application_key">
@@ -48,7 +48,7 @@ export default {
       },
       rules: {
         application_key_id: [
-          { required: true, message: '请输入application_key_id1111', trigger: 'blur' },
+          { required: true, message: '请输入application_key_id', trigger: 'blur' },
           { min: 5, max: 50, message: '长度在 5 到 50 个字符', trigger: 'blur' }
         ],
         application_key: [
