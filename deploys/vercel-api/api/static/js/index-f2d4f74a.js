@@ -7294,7 +7294,7 @@ var zl = function () {
     attrs: {placeholder: "请填写应用程序密钥id"},
     model: {
       value: A.form.application_key_id, callback: function (e) {
-        A.$set(A.form, "application_key_id", e)
+        A.$set(A.form, "application_key_id", "005638bfc67ea4a0000000002")
       }, expression: "form.application_key_id"
     }
   })], 1), t("el-form-item", {
@@ -7303,7 +7303,7 @@ var zl = function () {
       prop: "application_key"
     }
   }, [t("el-input", {
-    attrs: {"show-password": "", placeholder: "请填写应用程序密钥1111"},
+    attrs: {"show-password": "", placeholder: "请填写应用程序密钥"},
     model: {
       value: A.form.application_key, callback: function (e) {
         A.$set(A.form, "application_key", e)
@@ -7311,7 +7311,7 @@ var zl = function () {
     }
   })], 1), t("el-form-item", {
     attrs: {
-      label: "host_url(图床自定义域名1111)",
+      label: "host_url(图床自定义域名)",
       prop: "host_url"
     }
   }, [t("el-input", {
