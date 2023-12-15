@@ -7892,7 +7892,7 @@ var sg = function () {
     class: "home" === A.currentMenu ? "is-nav-selected" : "",
     attrs: {"data-index": "home"}
   }, [A._v("首页")]), A.isLogined ? t("span", {
-    class: "setting" === A.currentMenu ? "is-nav-selected" : "",
+    class: "imanage" === A.currentMenu ? "is-nav-selected" : "",
     attrs: {"data-index": "imanage"}
   }, [A._v("图床管理")]) : A._e(), A._m(0),]), t("router-view"), t("SettingView"), t("footer", )], 1)
 }, og = [function () {
