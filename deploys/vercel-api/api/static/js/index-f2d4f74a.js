@@ -7311,7 +7311,7 @@ var zl = function () {
     }
   })], 1), t("el-form-item", {
     attrs: {
-      label: "host_url(图床自定义域名1111111)",
+      label: "host_url(图床自定义域名)",
       prop: "host_url"
     }
   }, [t("el-input", {
