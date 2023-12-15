@@ -11,17 +11,17 @@
     <h2 class="setting-hd-h2">密钥配置</h2>
     <el-form ref="formRef" :model="form" :rules="rules">
       <el-form-item label="application_key_id" prop="application_key_id">
-        <el-input v-model="form.application_key_id" value="005638bfc67ea4a0000000002" placeholder="请填写应用程序密钥id"></el-input>
+        <el-input v-model="form.application_key_id" :value="application_key_id" placeholder="请填写应用程序密钥id"></el-input>
       </el-form-item>
       <el-form-item label="application_key" prop="application_key">
-        <el-input v-model="form.application_key" value="K005L2g8QJqL8KbzHOUbHu/wrnaIypw" show-password placeholder="请填写应用程序密钥"></el-input>
+        <el-input v-model="form.application_key" :value="application_key" show-password placeholder="请填写应用程序密钥"></el-input>
       </el-form-item>
       <el-form-item label="host_url(图床自定义域名)" prop="host_url">
-        <el-input v-model="form.host_url" value="https://imgcdn.illlli.com/" placeholder="请填写地址,eg: https://cloud.mr90.top/file/imagecloud/ 注意:结尾必须加 ‘/’">
+        <el-input v-model="form.host_url" placeholder="请填写地址,eg: https://cloud.mr90.top/file/imagecloud/ 注意:结尾必须加 ‘/’">
         </el-input>
       </el-form-item>
       <el-form-item label=" bucket_name" prop="bucket_name">
-        <el-input v-model="form.bucket_name" placeholder="请填写存储桶名称"></el-input>
+        <el-input v-model="form.bucket_name" :value="bucket_name" placeholder="请填写存储桶名称"></el-input>
       </el-form-item>
       <el-form-item>
         <div class="btn-wrap-form">
@@ -40,6 +40,9 @@ import useStore from '@/store'
 export default {
   data() {
     return {
+      application_key_id: '005638bfc67ea4a0000000002',
+      application_key: 'K005L2g8QJqL8KbzHOUbHu/wrnaIypw',
+      bucket_name: 'illlli',
       form: {
         application_key_id: '',
         application_key: '',
