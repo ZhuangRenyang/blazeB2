@@ -8203,7 +8203,7 @@
             }
           })], 1), e("el-form-item", {
             attrs: {
-              label: "host_url(图床自定义域名)",
+              label: "host_url(图床自定义域名1111)",
               prop: "host_url"
             }
           }, [e("el-input", {
