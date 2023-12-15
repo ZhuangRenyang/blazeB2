@@ -41,9 +41,9 @@ export default {
   data() {
     return {
       form: {
-        application_key_id: '',
-        application_key: '',
-        bucket_name: '',
+        application_key_id: '005638bfc67ea4a0000000002',
+        application_key: 'K005L2g8QJqL8KbzHOUbHu/wrnaIypw',
+        bucket_name: 'illlli',
         host_url: ''
       },
       rules: {
