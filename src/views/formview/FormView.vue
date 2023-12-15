@@ -21,7 +21,7 @@
         </el-input>
       </el-form-item>
       <el-form-item label=" bucket_name" prop="bucket_name">
-        <el-input v-model="form.bucket_name" placeholder="请填写存储桶名称111"></el-input>
+        <el-input v-model="form.bucket_name" placeholder="请填写存储桶名称"></el-input>
       </el-form-item>
       <el-form-item>
         <div class="btn-wrap-form">
