@@ -7354,7 +7354,7 @@ zl._withStripped = !0;
 const Au = {
   data() {
     return {
-      form: {application_key_id: "005638bfc67ea4a0000000002", application_key: "K005L2g8QJqL8KbzHOUbHu/wrnaIypw", bucket_name: "", host_url: "https://f005.backblazeb2.com/file/illlli/"},
+      form: {application_key_id: "005638bfc67ea4a0000000002", application_key: "K005L2g8QJqL8KbzHOUbHu/wrnaIyp", bucket_name: "illlli", host_url: "https://f005.backblazeb2.com/file/illlli/"},
       rules: {
         application_key_id: [{required: !0, message: "请输入application_key_id", trigger: "blur"}, {
           min: 5,
