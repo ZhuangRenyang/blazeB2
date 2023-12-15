@@ -8,7 +8,7 @@
 -->
 <template>
   <div class="form-w">
-    <h2 class="setting-hd-h2">密钥配置</h2>
+    <h2 class="setting-hd-h2">密钥配置1</h2>
     <el-form ref="formRef" :model="form" :rules="rules">
       <el-form-item label="application_key_id" prop="application_key_id">
         <el-input v-model="form.application_key_id" placeholder="请填写应用程序密钥id"></el-input>
