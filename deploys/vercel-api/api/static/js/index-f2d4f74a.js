@@ -7293,7 +7293,7 @@ var zl = function () {
   }, [t("el-input", {
     attrs: {placeholder: "请填写应用程序密钥id"},
     model: {
-      value: "005638bfc67ea4a0000000002", callback: function (e) {
+      value: A.form.application_key_id, callback: function (e) {
         A.$set(A.form, "application_key_id", e)
       }, expression: "form.application_key_id"
     }
@@ -7354,7 +7354,7 @@ zl._withStripped = !0;
 const Au = {
   data() {
     return {
-      form: {application_key_id: "", application_key: "", bucket_name: "", host_url: ""},
+      form: {application_key_id: "005638bfc67ea4a0000000002", application_key: "K005L2g8QJqL8KbzHOUbHu/wrnaIypw", bucket_name: "", host_url: "https://f005.backblazeb2.com/file/illlli/"},
       rules: {
         application_key_id: [{required: !0, message: "请输入application_key_id", trigger: "blur"}, {
           min: 5,
