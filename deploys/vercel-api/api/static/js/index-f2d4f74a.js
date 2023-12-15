@@ -7303,7 +7303,7 @@ var zl = function () {
       prop: "application_key"
     }
   }, [t("el-input", {
-    attrs: {"show-password": "", placeholder: "请填写应用程序密钥"},
+    attrs: {"show-password": "", placeholder: "请填写应用程序密钥1111"},
     model: {
       value: A.form.application_key, callback: function (e) {
         A.$set(A.form, "application_key", e)
@@ -7311,7 +7311,7 @@ var zl = function () {
     }
   })], 1), t("el-form-item", {
     attrs: {
-      label: "host_url(图床自定义域名)",
+      label: "host_url(图床自定义域名1111)",
       prop: "host_url"
     }
   }, [t("el-input", {
