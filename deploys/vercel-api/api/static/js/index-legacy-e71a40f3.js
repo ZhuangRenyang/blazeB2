@@ -8791,10 +8791,7 @@
           }, [A._v("使用文档")]), e("span", {
             class: "about" === A.currentMenu ? "is-nav-selected" : "",
             attrs: {"data-index": "about"}
-          }, [A._v("关于程序")])]), e("router-view"), e("SettingView"), e("footer", [A._v(" Copyright ©2021-" + A._s(A.timeE) + " "), e("a", {
-            staticStyle: {"text-decoration": "none"},
-            attrs: {href: "https://u.mr90.top", target: "_blank", rel: "noopener noreferrer"}
-          }, [A._v("Harry")]), A._v(" Dev. ")])], 1)
+          }, )]), e("router-view"), e("SettingView"), e("footer",)], 1)
         }, Vg = [function () {
           var A = this.$createElement, t = this._self._c || A;
           return t("div", {staticClass: "logo-wrap"}, [t("img", {

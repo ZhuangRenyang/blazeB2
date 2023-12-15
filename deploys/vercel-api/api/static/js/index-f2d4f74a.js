@@ -7897,10 +7897,7 @@ var sg = function () {
   }, [A._v("图床管理")]) : A._e(), A._m(0), t("span", {
     class: "setting" === A.currentMenu ? "is-nav-selected" : "",
     attrs: {"data-index": "setting"}
-  }, [A._v("关于程序")])]), t("router-view"), t("SettingView"), t("footer", [A._v(""), t("a", {
-    staticStyle: {"text-decoration": "none"},
-    attrs: {href: "https://u.mr90.top", target: "_blank", rel: "noopener noreferrer"}
-  }, [A._v("Harry")]), A._v(" Dev. ")])], 1)
+  },)]), t("router-view"), t("SettingView"), t("footer", )], 1)
 }, og = [function () {
   var A = this.$createElement, e = this._self._c || A;
   return e("div", {staticClass: "logo-wrap"}, [e("img", {
