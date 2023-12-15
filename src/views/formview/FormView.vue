@@ -48,7 +48,7 @@ export default {
       },
       rules: {
         application_key_id: [
-          { required: true, message: '请输入application_key_id111', trigger: 'blur' },
+          { required: true, message: '请输入application_key_id', trigger: 'blur' },
           { min: 5, max: 50, message: '长度在 5 到 50 个字符', trigger: 'blur' }
         ],
         application_key: [
