@@ -990,11 +990,11 @@
 }
 
 .el-icon-upload2:before {
-    content: "&#xe731;"
+    content: #xe731;
 }
 
 .el-icon-upload:before {
-    content: "&#xe731;"
+    content: #xe731;
 }
 
 .el-icon-picture-outline-round:before {
