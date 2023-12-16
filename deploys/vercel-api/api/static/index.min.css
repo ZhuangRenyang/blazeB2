@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: element-icons;
-    src: url(/font_4375922_b410wcqntz.woff) format("woff"), url(/font_4375922_b410wcqntz.ttf) format("truetype");
+    src: url(/font_4375922_yhxoru8zo28.woff) format("woff"), url(/font_4375922_yhxoru8zo28.ttf) format("truetype");
     font-weight: 400;
     font-display: auto;
     font-style: normal
@@ -794,7 +794,7 @@
 }
 
 .el-icon-arrow-up:before {
-    content: "\e62b"
+    content: "\e625"
 }
 
 .el-icon-arrow-down:before {
@@ -802,7 +802,7 @@
 }
 
 .el-icon-arrow-right:before {
-    content: "\e6e0"
+    content: "\e695"
 }
 
 .el-icon-arrow-left:before {
@@ -1010,7 +1010,7 @@
 }
 
 .el-icon-close:before {
-    content: "\e6db"
+    content: "\e611"
 }
 
 .el-icon-check:before {
@@ -1062,7 +1062,7 @@
 }
 
 .el-icon-success:before {
-    content: "\e79c"
+    content: "\e631"
 }
 
 .el-icon-circle-plus:before {
@@ -1086,7 +1086,7 @@
 }
 
 .el-icon-warning:before {
-    content: "\e7a3"
+    content: "\e654"
 }
 
 .el-icon-goods:before {
