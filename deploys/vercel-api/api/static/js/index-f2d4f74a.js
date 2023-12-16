@@ -7229,7 +7229,7 @@ var Jl = function () {
   return t("div", {staticClass: "switch-theme-wrap"}, [t("div", [A.isLogined ? t("button", {on: {click: A.openhandle}}, [t("LayOut")], 1) : t("button", {on: {click: A.tapLoginPage}}, [t("SignSvg")], 1)]), t("div", {on: {click: A.handleSetting}}, [t("button", [t("SettingSvg")], 1)]), t("div", {
     staticStyle: {display: "inline-block"},
     on: {click: A.handleThemeChange}
-  }, [A.isLight ? t("button", [t("VPIconSun")], 1) : t("button", [t("VPIconMoon")], 1)]), t("button", {on: {click: A.handleTogGithub}}, [t("VPIconGitHub")], 1)])
+  }, [A.isLight ? t("button", [t("VPIconSun")], 1) : t("button", [t("VPIconMoon")], 1)])])
 }, Xl = [];
 Jl._withStripped = !0;
 const Wl = {
