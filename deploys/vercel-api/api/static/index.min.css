@@ -13,13 +13,13 @@
 
 @font-face {
     font-family: element-icons;
-    src: url('//at.alicdn.com/t/c/font_4375922_ssgu4gficmo.woff?t=1702723555077') format("woff"), url('//at.alicdn.com/t/c/font_4375922_ssgu4gficmo.ttf?t=1702723555077') format("truetype");
+    src: url(/font_4375922_ssgu4gficmo.woff) format("woff"), url(/font_4375922_ssgu4gficmo.ttf) format("truetype");
     font-weight: 400;
     font-display: auto;
     font-style: normal
 }
 
-[class*="el-icon-"], [class^=el-icon-] {
+[class*=" el-icon-"], [class^=el-icon-] {
     font-family: element-icons !important;
     speak: none;
     font-style: normal;
@@ -990,11 +990,11 @@
 }
 
 .el-icon-upload2:before {
-    content: "\e77b"
+    content: "&#xe731;"
 }
 
 .el-icon-upload:before {
-    content: &#xe626;
+    content: "&#xe731;"
 }
 
 .el-icon-picture-outline-round:before {
