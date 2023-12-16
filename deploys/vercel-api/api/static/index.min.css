@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: element-icons;
-    src: url(/font_4375922_ssgu4gficmo.woff) format("woff"), url(/font_4375922_ssgu4gficmo.ttf) format("truetype");
+    src: url(/font_4375922_b410wcqntz.woff) format("woff"), url(/font_4375922_b410wcqntz.ttf) format("truetype");
     font-weight: 400;
     font-display: auto;
     font-style: normal
@@ -990,11 +990,11 @@
 }
 
 .el-icon-upload2:before {
-    content: "\e77b";
+    content: "\e626";
 }
 
 .el-icon-upload:before {
-    content: "\e731";
+    content: "\e667";
 }
 
 .el-icon-picture-outline-round:before {
