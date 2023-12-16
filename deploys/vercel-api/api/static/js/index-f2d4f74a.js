@@ -7839,7 +7839,7 @@ var zu = function () {
   }, [t("CloseSvg")], 1)]), t("div", {staticClass: "setting-content"}, [t("FormView", {staticClass: "separate-line"}), t("set-default-copy", {staticClass: "separate-line"}), t("set-upload", {staticClass: "separate-line"}), t("set-compress", {staticClass: "separate-line"}), t("set-prefix", {staticClass: "separate-line"}), t("set-copy", {staticClass: "separate-line"}), t("set-default", {staticClass: "separate-line"})], 1), A._m(0)])]) : A._e()
 }, qu = [function () {
   var A = this, e = A.$createElement, t = A._self._c || e;
-  return t("p", [t("span", {staticClass: "red-c"}, t("a", {
+  return t("p", [t("span", {staticClass: "red-c"}),t("a", {
     attrs: {
       href: "https://blazeb2.js.org/guide/prepare.html",
       target: "_blank",
